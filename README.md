@@ -27,28 +27,30 @@ Material UI,
 # Архитектура проекта:
 
 Архитектура FLUX
--src
---- -styles
------- -global
------- -colors
---- -store
------- -slices
---------- -slice
------------- -initialState
------------- -reducers
------------- -slice
---- -assets
------- -svg
---- -utils
------- -constants
------- -helpers
---- -components
------- -component
---------- -UI
---------- -style
---------- -Controller
---- -bloks
------- -components
+
+- src
+  - styles
+    - global
+    - colors
+    - store
+  - slices
+    - slice
+      - initialState
+      - reducers
+      - slice
+  - assets
+    - svg
+  - utils
+    - constants
+    - helpers
+  - components
+    - component
+      - UI
+      - Controller
+      - style
+      - component
+  - bloks
+    - components
 
 # Список задач:
 
