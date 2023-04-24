@@ -1,13 +1,13 @@
 # Kanban deck
 
-# Стек технологий:
+## Стек технологий
 
-React,
-Redux toolkit,
-SASS/SCSS,
-Material UI,
+1. React,
+2. Redux toolkit,
+3. SASS/SCSS,
+4. Material UI,
 
-# Функционал:
+## Функционал
 
 1. Показывать три столбца с задачами (Надо сделать, Делается, Сделано);
 2. Каждая задача будет представлять из себя блок с её названием;
@@ -24,7 +24,7 @@ Material UI,
 13. В верхней панели будет панель поиска, по которой задачи будут фильтроваться по совпданиям в названии;
 14. В верхней панели будет кнопка сортировки: сортировка по дате создания и по названию в обоих порядках;
 
-# Архитектура проекта:
+## Архитектура проекта
 
 Архитектура FLUX
 
@@ -32,12 +32,12 @@ Material UI,
   - styles
     - global
     - colors
-    - store
-  - slices
-    - slice
-      - initialState
-      - reducers
+  - store
+    - slices
       - slice
+        - initialState
+        - reducers
+        - slice
   - assets
     - svg
   - utils
@@ -49,10 +49,10 @@ Material UI,
       - Controller
       - style
       - component
-  - bloks
+  - blocks
     - components
 
-# Список задач:
+## Список задач
 
 1. Подготовка
 
